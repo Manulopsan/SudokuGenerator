@@ -1,0 +1,52 @@
+#root {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+h1{
+  font-size: 100px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.digit{
+  font-size: 40px;
+  width: 50px;
+  padding: 5px;
+}
+
+.solid{
+  border-right: 4px solid #112A46;
+  border-top: 0.5px solid #112A46;
+  border-bottom: 0.5px solid #112A46;
+}
+
+.dash{
+  border: 0.2px solid #112A46;
+}
+
+.horizontal-solid{
+  border-bottom: 4px solid #112A46;
+}
+
+button{
+  margin:15px;
+  font-size: 30px;
+  padding: 10px;
+  background-color: #204d80;
+  color: white;
+  border: 2px solid #112A46;
+}
